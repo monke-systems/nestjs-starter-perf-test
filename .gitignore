@@ -104,3 +104,4 @@ dist/
 
 src/resources/*
 CONFIG_REFERENCE.MD
+infra/monitoring/grafana-data

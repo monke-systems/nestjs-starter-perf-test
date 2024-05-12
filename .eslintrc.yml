@@ -7,3 +7,5 @@ env:
   jest: true
 extends:
   - '@monkee/eslint-config/typescript'
+ignorePatterns:
+  - infra/k6/*

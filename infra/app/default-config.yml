@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=config-schema.json
+nest:
+  appName: test-app
+  http:
+    port: 3000
+    gracefulShutdown:
+      enabled: false
+  logging:
+    prettyMode: true
+    level: fatal
+    enableHttpTracing: false
+    enableHttpRequestContext: false
+  actuator:
+    enabled: true
+    port: 8002
+  prometheus:
+    enabled: true
+    defaultMetrics: true
+    enableHttpMetrics: true
+  healthcheck:
+    enabled: true
+  swagger:
+    enabled: true
+    path: doc
